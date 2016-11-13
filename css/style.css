@@ -17,6 +17,14 @@ html {
     height: 100%;
 }
 
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
 @media(min-width:1000px) {
     .navbar {
         padding: 20px 0;
@@ -28,73 +36,67 @@ html {
     .top-nav-collapse {
         padding: 0;
     }
+	
 }
 
 .navbar-brand{
-	font-size:25px;
+	font-size:35px;
 	font-weight:bold;
-	
 }
 
+.navbar-brand:hover{
+	color:#ccc;
+}
 
+.navbar{
+	background:rgba(0,0,0,0.35) ;
+	border-bottom:none;
+}
+
+.navbar a{
+	color:White;
+}
+
+.nav>li>a:focus, 
+.nav>li>a:hover{
+	background: transparent;
+	color: #ccc;
+}
 /* Main Section*/
 .mainSection{
-    height: 520px;
-    padding-top: 150px;
-    background: #fff;
-	font-family: 'Lobster', cursive;
+    height: 100%;
+	text-align:center;
+	
+    background: #000;
+	background-image: 
+		linear-gradient(
+		  rgba(0, 0, 0, 0.8), 
+		  rgba(0, 0, 0, 0.8)
+		),
+		url("../img/bg1.jpg");   
+	background-repeat: no-repeat;
+    background-position: center; 
 }
 
-.roleText{
-	font-size: 5em;
-	line-height:0.85em;
+.mainSection h1{
+	color:white;
+	font-size:10em;
+	font-family: 'Lobster', cursive;
+	line-height:0.7em;
+}
+
+.mainSection p{
+	color:#eee;
+	font-size:1em;
 }
 
 @media only screen and (max-width: 640px) {
-	.roleText{
-		font-size:3.2em;
-	}
 	
-	.mainRoles{
-		margin:0em 1.2em;
-	}
-	
-	.mainSection{
-		padding-top:75px;
-		height:300px;
-	}
-}
-
-.fed{
-	color:#e74c3c;
-}
-
-.mmd{
-	margin-left:30px;
-	color:#e67e22;
-}
-
-.uiuxd{
-	margin-left:50px;
-	color:#f1c40f;
-}
-
-.photographer{
-	margin-left: 70px;
-	color: #2ecc71;
-}
-
-.videographer{
-	margin-left:90px;
-	color:#3498db;
 }
 
 /*Frontend Developer*/
-.about-section {
+.mmd {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-	background-image: url("../img/bg.jpg");   
-	background-repeat: no-repeat;
-    background-position: center; 
 }
