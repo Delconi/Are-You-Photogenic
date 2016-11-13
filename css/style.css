@@ -67,6 +67,7 @@ body,html {
 .mainSection{
     height: 100%;
 	text-align:center;
+	padding-top:150px;
 	
     background: #000;
 	background-image: 
@@ -78,6 +79,7 @@ body,html {
 	background-repeat: no-repeat;
     background-position: center; 
 	background-attachment: fixed;
+	
 }
 
 .mainSection h1{
@@ -136,7 +138,7 @@ body,html {
 	background-color:black;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 	.skillIcon{
 		margin-top:15px;
 	}
@@ -147,8 +149,13 @@ body,html {
 
 }
 
-@media (max-width: 771px) {
+@media (max-width: 480px) {
 	.mainSection{
-		padding-top:20px;
+		padding-top:100px;
+		height: 700px;
+	}
+	
+	.mainSection h1{
+		font-size:100px;
 	}
 }
