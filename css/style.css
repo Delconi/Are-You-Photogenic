@@ -1,27 +1,18 @@
-/*!
- * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
-body,html {
+body {
     width: 100%;
     height: 100%;
 	font-family: 'Roboto', sans-serif;
 	margin:0px;
 	padding:0px;
-	overflow-x:hidden;
 }
 
-.vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
-
-  display: flex;
-  align-items: center;
+html{
+	width: 100%;
+    height: 100%;
+	overflow-x: hidden; 
 }
 
-@media(min-width:900px) {
+@media(min-width:767px) {
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -45,7 +36,7 @@ body,html {
 }
 
 .navbar{
-	background:rgba(0,0,0,0.35) ;
+	background:rgba(0,0,0,0.75) ;
 	border-bottom:none;
 }
 
@@ -67,7 +58,7 @@ body,html {
 .mainSection{
     height: 100%;
 	text-align:center;
-	padding-top:150px;
+	padding-top:200px;;
 	
     background: #000;
 	background-image: 
@@ -94,8 +85,12 @@ body,html {
 	font-size:15px;
 }
 
+.manyMore{
+	margin-top:15px;
+}
+
 .skillSet{
-	margin-top:50px;
+	margin-top:20px;
 }
 
 /*Multimedia Designer*/
