@@ -102,20 +102,6 @@ html{
 	background-color:black;
 }
 
-.mmd h1, .contact h1{
-	color:white;
-	font-size:50px;
-	font-family: 'Lobster', cursive;
-	margin-bottom:20px;
-}
-
-.mmd p{
-	color:white;
-	font-size:15px;
-	margin-left:50px;
-	margin-right:50px;
-}
-
 /*UiUx Designer*/
 .uiuxd {
     height: auto;
@@ -150,6 +136,39 @@ html{
 	padding-bottom:50px;
     text-align: center;
 	background-color:black;
+}
+
+/* Shared Section Style*/
+.mmd h1, .contact h1, .pvg h1{
+	color:white;
+	font-size:50px;
+	font-family: 'Lobster', cursive;
+	margin-bottom:20px;
+}
+
+.fed h1, .uiuxd h1{
+	color:black;
+	font-size:50px;
+	font-family: 'Lobster', cursive;
+	margin-bottom:20px;
+}
+
+.mmd p, .contact p, .pvg p{
+	color:white;
+	font-size:15px;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.fed p, .uiuxd p{
+	color:black;
+	font-size:15px;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+i{
+	font-size:12px;
 }
 
 /*Scaling STyle*/
