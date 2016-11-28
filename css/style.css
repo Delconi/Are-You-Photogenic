@@ -58,12 +58,8 @@ html{
 .mainSection{
     height: auto;
 	text-align:center;
-<<<<<<< HEAD
 	padding-top:150px;
 	padding-bottom:100px;
-=======
-	
->>>>>>> origin/master
     background: #000;
 	background-image: 
 		linear-gradient(
@@ -156,10 +152,8 @@ html{
 	background-color:black;
 }
 
-<<<<<<< HEAD
 /*Scaling STyle*/
 @media (max-width: 750px) {
-=======
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
   min-height: 100vh; /* These two lines are counted as one :-)       */
@@ -169,7 +163,6 @@ html{
 }
 
 @media (max-width: 768px) {
->>>>>>> origin/master
 	.skillIcon{
 		margin-top:15px;
 	}
@@ -183,14 +176,11 @@ html{
 
 @media (max-width: 480px) {
 	.mainSection{
-<<<<<<< HEAD
 		padding-top:50px;
 		height: auto;
 		padding-bottom:50px;
-=======
 		padding-top:80px;
 		height: 700px;
->>>>>>> origin/master
 	}
 	
 	.mainSection h1{
