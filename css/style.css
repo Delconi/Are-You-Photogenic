@@ -56,10 +56,10 @@ html{
 
 /* Main Section*/
 .mainSection{
-    height: 100%;
+    height: auto;
 	text-align:center;
-	padding-top:150px;;
-	
+	padding-top:150px;
+	padding-bottom:100px;
     background: #000;
 	background-image: 
 		linear-gradient(
@@ -95,62 +95,81 @@ html{
 
 /*Multimedia Designer*/
 .mmd {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 50px;
+	padding-bottom:50px;
     text-align: center;
 	background-color:black;
 }
 
+.mmd h1, .contact h1{
+	color:white;
+	font-size:50px;
+	font-family: 'Lobster', cursive;
+	margin-bottom:20px;
+}
+
+.mmd p{
+	color:white;
+	font-size:15px;
+	margin-left:50px;
+	margin-right:50px;
+}
+
 /*UiUx Designer*/
 .uiuxd {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 50px;
+	padding-bottom:50px;
     text-align: center;
 	background-color:white;
 }
 
 /*Photo/Video*/
 .pvg {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 50px;
+	padding-bottom:50px;
     text-align: center;
 	background-color:black;
 }
 
 /*Front End Developer*/
 .fed {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 50px;
+	padding-bottom:50px;
     text-align: center;
 	background-color:white;
 }
 
 /*Photo/Video*/
 .contact {
-    height: 100%;
-    padding-top: 150px;
+    height: auto;
+    padding-top: 50px;
+	padding-bottom:50px;
     text-align: center;
 	background-color:black;
 }
 
-@media (max-width: 910px) {
+/*Scaling STyle*/
+@media (max-width: 750px) {
 	.skillIcon{
 		margin-top:15px;
 	}
 	
 	.mainSection{
-		padding-top:150px;
-		height: auto;
-		padding-bottom:100px;
+		padding-top:75px;
+		padding-bottom:30px;
 	}
 
 }
 
 @media (max-width: 480px) {
 	.mainSection{
-		padding-top:75px;
+		padding-top:50px;
 		height: auto;
-		padding-bottom:75px;
+		padding-bottom:50px;
 	}
 	
 	.mainSection h1{
